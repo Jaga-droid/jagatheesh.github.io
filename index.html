@@ -1,0 +1,200 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Data Science Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href='#header'>Home</a></li>
+                        <li><a href='#about'>About</a></li>
+                        <li><a href='#portfolio'>Portfolio</a></li>
+                        <li><a href='#contact'>Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                   
+                </nav>
+                <div class="header-text">
+                    <p>Data Scientist</p>
+                    <h1>Hi, I am <span>Jagatheesh</span><br> from United Kingdom</h1>
+                </div>
+            </div>
+        </div>
+        <!------------about------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>A budding data science professional with
+                    reasonable expertise in protean languages like python with
+                     adequate data visualization skills. Most of my experience stems from working
+                     with Natural Language Processing. I am currently pursuing my Master's in 
+                     Data Science at Heriot-Watt University</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Statistics</span><br>Statistically analyse data, build and test hypotheses to aid predictions</li>
+                            <li><span>Machine Learning/Deep Learning</span><br>Supervised and unsupervised algorithms and neural networks for regression and classification tasks</li>
+                            <li><span>Natural Language Processing</span><br>Working with unstructured data to analyse semantics of language to perform tasks that include but not limited to document classification and named entity recognition</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan 2020 - Nov 2021</span><br>Junior Machine Learning Engineer at Merit Software Services</li>
+                            <li><span>Dec 2018 - Apr 2019</span><br>Software Engineer Intern at GoFrugal Technologies</li>
+                            <li><span>Apr 2018 - May 2018</span><br>Software Engineer Intern at MonitPro Solutions</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Masters in Data Science from Heriot-Watt University Edinburgh</li>
+                            <li><span>2019</span><br>B.Tech Computer Science and Engineering from SASTRA University Thanjavur</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>2021</span><br><a href="https://www.coursera.org/account/accomplishments/verify/PG3RPHXL6DG3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" style="color: aqua;">Blockchain: Foundations and Use cases</a></li>
+                            <li><span>2020</span><br><a href="https://www.coursera.org/account/accomplishments/specialization/2W7ZHHNG8AP2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n" style="color: aqua;">Deep Learning Specialization - Andrew Ng</a> </li>
+                            <li><span>2019</span><br><a href="https://olympus1.mygreatlearning.com/certificate/KIIJVSIL" style="color: aqua;">Great Learning Data Science Program  </a></li>
+                        </ul>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------portfolio--------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Zomato's Trends and Sentiment Analysis</h3>
+                            <p>This project attempts to find the significant factors of a restaurant that appeal to customers.</p>
+                            <a href="https://github.com/Jaga-droid/CAPSTONE_PROJECT/tree/master"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>COVID Dashboard</h3>
+                            <p>This project aims to provide a visual summary of the coronavirus pandemic from its original place and its trajectory over time.</p>
+                            <a href="https://github.com/Jaga-droid/Covid_Data_StoryBoard/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>DupliDetect</h3>
+                            <p>This project aims to apply Machine Learning and NLP techniques to detect plagiarism in text and source code.</p>
+                            <a href="#" onclick="alert('Coming soon.!!');"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-4.png">
+                        <div class="layer">
+                            <h3>ALBA Upliftment Project</h3>
+                            <p>This project aims to help reduce overall deprivation in Scotland by analyzing the SIMD for Multiple years and help in prevention/dispatch of emergency services in the most deprived regions.</p>
+                            <a href="https://github.com/Jaga-droid/Project-Valhalla/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+<!----------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pjagatheesh45@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+44 7384 376990</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jaga2309/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Jagatheesh_Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheets">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            function show(){
+                alert("show message");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+                
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyoWPL2owTa3eTtQ5fPdEFQoIj-xNJnOAQIf-5PeR3uXhWCOgGRgP8gDhCvLifMd-L8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
